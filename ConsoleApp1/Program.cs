@@ -11,7 +11,7 @@
         Console.WriteLine($"Maximum value: {max}");
     }
 
-    public static double CalculateAverage(int[] array)
+    public static double CalculateAverageTest(int[] array)
     {
         if (array == null || array.Length == 0)
         {
