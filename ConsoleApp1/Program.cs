@@ -4,14 +4,14 @@
     {
         int[] numbers = { 1, 2, 3, 4, 5 };
         
-        double average = CalculateAverage(numbers);
+        double average = CalculateAverageMain(numbers);
         Console.WriteLine($"Average: {average}");
         
         int max = FindMaximum(numbers);
         Console.WriteLine($"Maximum value: {max}");
     }
 
-    public static double CalculateAverage(int[] array)
+    public static double CalculateAverageMain(int[] array)
     {
         if (array == null || array.Length == 0)
         {
